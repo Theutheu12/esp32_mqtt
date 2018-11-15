@@ -12,10 +12,20 @@
 
 const char* ssid     = "Theutheu";
 const char* password = "vT__12126";
+
+/*
+CloudMQTT
 const char* mqttServer = "m23.cloudmqtt.com";
 const int mqttPort = 10226;
 const char* mqttUser = "qnopdrhy";
 const char* mqttPassword = "fq7FS6HhlY6V";
+*/
+
+// Raspberry pi
+const char* mqttServer = "192.168.1.118";
+const int mqttPort = 1883;
+const char* mqttUser = "";
+const char* mqttPassword = "";
 
 HTU21D myHumidity;
 
