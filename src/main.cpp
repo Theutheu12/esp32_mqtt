@@ -11,7 +11,7 @@
 #define SWITCH 0
 
 const char* ssid     = "Theutheu";
-const char* password = "vT__12126";
+const char* password = "***************";
 
 /*
 CloudMQTT
